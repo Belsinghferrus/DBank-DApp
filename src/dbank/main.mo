@@ -21,6 +21,11 @@ actor DBank {
     Debug.print(debug_show(currentValue))
   } else {
     Debug.print("There is an error")
-  }
-  } 
+    }
+  };
+
+  public query func checkBalance() : async Nat {
+    return currentValue;
+  };
+
 };
