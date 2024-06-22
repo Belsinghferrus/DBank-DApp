@@ -40,6 +40,20 @@ Additionally, if you are making frontend changes, you can start a development se
 npm start
 ```
 
+Inorder to view Candid UI
+```
+dfx canister id __Candid_UI
+```
+You will recive your Canister id
+Then copy this ip address
+`http://127.0.0.1:8000/?canisterId={Canister ID}`
+Replace this url with your canister id.
+
+In the prompt `Provide the canister id` Run:
+```
+dfx canister id dbank
+```
+Provide it in the prompt and you're good to go
 Which will start a server at `http://localhost:8080`, proxying API requests to the replica at port 8000.
 
 ### Note on frontend environment variables
