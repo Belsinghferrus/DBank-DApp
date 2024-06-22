@@ -1,0 +1,16 @@
+
+uses actor for creating a structure or function whatever.
+actor DBank{}
+
+Always end a function with ;
+
+Debug.print("Enter the string");
+
+Debug.print(debug_show(the variable));
+
+:= means replace the value of the existing value
+currentValue := 100;
+
+orthogonal persistanc
+* Adding "stable" infrom of the variable lets you store data of the current value without storing it in any database.
+    stable var currentValue = 300;
